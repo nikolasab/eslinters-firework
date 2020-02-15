@@ -183,7 +183,7 @@ module.exports = {
             rule: '^(is|has)[A-Z]([A-Za-z0-9]?)+',
             message: '',
         }],
-        'react/jsx-curly-brace-presence': ['error', { props: 'never', children: 'never' }],
+        'react/jsx-curly-brace-presence': ['error', { props: 'always', children: 'always' }],
         'react/no-access-state-in-setstate': 'error',
         'react/jsx-props-no-multi-spaces': 'error',
         'react/jsx-curly-newline': ['error', {
