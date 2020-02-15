@@ -93,7 +93,7 @@ module.exports = {
         }],
         'react/jsx-first-prop-new-line': ['error', 'multiline-multiprop'],
         'react/jsx-closing-bracket-location': ['error', 'tag-aligned'],
-        'react/jsx-curly-spacing': ['error', 'never', { allowMultiline: true }],
+        'react/jsx-curly-spacing': ['error', 'always', { allowMultiline: true }],
         'react/sort-comp': ['error', {
             order: [
                 'static-variables',
